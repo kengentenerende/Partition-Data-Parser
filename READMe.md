@@ -27,6 +27,29 @@ python partition_parser.py
 - *get_partition_type_label(partition_type_hex):* Matches the partition type hex value with a descriptive label.
 - *calculate_partition_size(num_sectors):* Calculates partition size in bytes, KB, and MB.
 
+## Output
+The script will output the following information:
+
+```yaml
+Copy code
+Bootable Flag: 80
+Partition Type (Hex): 07
+Partition Type (Label): Installable file systems: HPFS or NTFS. Also, QNX and Advanced Unix.
+Start CHS:
+    Cylinder: 0
+    Head: 32
+    Sector: 33
+End CHS:
+    Cylinder: 188
+    Head: 130
+    Sector: 18
+LBA Start: 2048
+Number of Sectors: 716800
+Size in Bytes: 367001600
+Size in KB: 358400
+Size in MB: 350
+```
+
 ## Notes
 Ensure that the input hex string is exactly 32 characters long.
 The partition type identification is based on standard partition type codes.
