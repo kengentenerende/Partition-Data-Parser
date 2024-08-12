@@ -17,7 +17,7 @@ To use the script, simply input a 32-character hex string representing the parti
 
 ```bash
 python partition_parser.py
-
+```
 
 ## Script Breakdown
 - parse_partition_data(partition_hex): Main function that takes a 32-character hex string and parses it into meaningful partition data.
