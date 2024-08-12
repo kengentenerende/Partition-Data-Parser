@@ -31,7 +31,6 @@ python partition_parser.py
 The script will output the following information:
 
 ```yaml
-Copy code
 Bootable Flag: 80
 Partition Type (Hex): 07
 Partition Type (Label): Installable file systems: HPFS or NTFS. Also, QNX and Advanced Unix.
